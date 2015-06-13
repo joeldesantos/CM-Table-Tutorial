@@ -9,10 +9,7 @@
 #import "Start.h"
 #import "cellSimpsons.h"
 #import "CharacterDetails.h"
-
-NSMutableArray *maNames;
-NSMutableArray *maAges;
-NSMutableArray *maImgs;
+#import "Declarations.h"
 
 @interface Start ()
 
@@ -75,6 +72,7 @@ NSMutableArray *maImgs;
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    miCharacterIndex = (int)indexPath.row;
     CharacterDetails *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CharacterDetails"];
     
     [self presentViewController:viewController animated:YES completion:nil];

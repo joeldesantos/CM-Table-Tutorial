@@ -23,6 +23,7 @@
 		D1D7645D1B2C85D70060D5A6 /* marge.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D764581B2C85D70060D5A6 /* marge.png */; };
 		D1D7645F1B2C8A130060D5A6 /* bart.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D7645E1B2C8A130060D5A6 /* bart.png */; };
 		D1D764621B2C8C250060D5A6 /* CharacterDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D764611B2C8C250060D5A6 /* CharacterDetails.m */; };
+		D1D764651B2C8FEA0060D5A6 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D764641B2C8FEA0060D5A6 /* Declarations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		D1D7645E1B2C8A130060D5A6 /* bart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bart.png; sourceTree = "<group>"; };
 		D1D764601B2C8C250060D5A6 /* CharacterDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterDetails.h; sourceTree = "<group>"; };
 		D1D764611B2C8C250060D5A6 /* CharacterDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterDetails.m; sourceTree = "<group>"; };
+		D1D764631B2C8FEA0060D5A6 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
+		D1D764641B2C8FEA0060D5A6 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 			children = (
 				D1D764261B2C71380060D5A6 /* AppDelegate.h */,
 				D1D764271B2C71380060D5A6 /* AppDelegate.m */,
+				D1D764631B2C8FEA0060D5A6 /* Declarations.h */,
+				D1D764641B2C8FEA0060D5A6 /* Declarations.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -291,6 +296,7 @@
 				D1D764281B2C71380060D5A6 /* AppDelegate.m in Sources */,
 				D1D764511B2C753A0060D5A6 /* cellSimpsons.m in Sources */,
 				D1D764621B2C8C250060D5A6 /* CharacterDetails.m in Sources */,
+				D1D764651B2C8FEA0060D5A6 /* Declarations.m in Sources */,
 				D1D7642B1B2C71380060D5A6 /* CM_Table.xcdatamodeld in Sources */,
 				D1D7642E1B2C71380060D5A6 /* Start.m in Sources */,
 				D1D764251B2C71380060D5A6 /* main.m in Sources */,

@@ -7,6 +7,7 @@
 //
 
 #import "CharacterDetails.h"
+#import "Declarations.h"
 
 @interface CharacterDetails ()
 
@@ -18,12 +19,17 @@
 /**********************************************************************************************/
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self initController];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)initController {
+    self.lblName.text   = maNames[miCharacterIndex];
+    self.imgUser.image  = [UIImage imageNamed:maImgs[miCharacterIndex]];
 }
 /**********************************************************************************************/
 #pragma mark - Buttons methods
