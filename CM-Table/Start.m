@@ -8,6 +8,7 @@
 
 #import "Start.h"
 #import "cellSimpsons.h"
+#import "CharacterDetails.h"
 
 NSMutableArray *maNames;
 NSMutableArray *maAges;
@@ -35,7 +36,7 @@ NSMutableArray *maImgs;
    //Initialize arrays
     maNames         = [[NSMutableArray alloc] initWithObjects: @"Bart Simpson", @"Lisa Simpson", @"Homer Simpson", @"Marge Simpson", @"Maggie Simpson", nil];
     maAges          = [[NSMutableArray alloc] initWithObjects: @"10", @"8", @"40", @"38", @"1", nil];
-    maImgs          = [[NSMutableArray alloc] initWithObjects: @"Bart.png", @"lisa.png", @"homer.png", @"marge.png", @"maggie.png", nil];
+    maImgs          = [[NSMutableArray alloc] initWithObjects: @"bart.png", @"lisa.png", @"homer.png", @"marge.png", @"maggie.png", nil];
 }
 /**********************************************************************************************/
 #pragma mark - Table source and delegate methods
@@ -74,6 +75,9 @@ NSMutableArray *maImgs;
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    CharacterDetails *viewController = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"CharacterDetails"];
+    
+    [self presentViewController:viewController animated:YES completion:nil];
 
 }
 
