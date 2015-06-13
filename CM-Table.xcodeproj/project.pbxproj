@@ -15,6 +15,8 @@
 		D1D764331B2C71380060D5A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D764321B2C71380060D5A6 /* Images.xcassets */; };
 		D1D764361B2C71380060D5A6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1D764341B2C71380060D5A6 /* LaunchScreen.xib */; };
 		D1D764421B2C71380060D5A6 /* CM_TableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D764411B2C71380060D5A6 /* CM_TableTests.m */; };
+		D1D764511B2C753A0060D5A6 /* cellSimpsons.m in Sources */ = {isa = PBXBuildFile; fileRef = D1D7644F1B2C753A0060D5A6 /* cellSimpsons.m */; };
+		D1D764521B2C753A0060D5A6 /* cellSimpsons.xib in Resources */ = {isa = PBXBuildFile; fileRef = D1D764501B2C753A0060D5A6 /* cellSimpsons.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		D1D7643B1B2C71380060D5A6 /* CM-TableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CM-TableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D764401B2C71380060D5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1D764411B2C71380060D5A6 /* CM_TableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CM_TableTests.m; sourceTree = "<group>"; };
+		D1D7644E1B2C753A0060D5A6 /* cellSimpsons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellSimpsons.h; sourceTree = "<group>"; };
+		D1D7644F1B2C753A0060D5A6 /* cellSimpsons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellSimpsons.m; sourceTree = "<group>"; };
+		D1D764501B2C753A0060D5A6 /* cellSimpsons.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellSimpsons.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +147,9 @@
 		D1D7644D1B2C72980060D5A6 /* Customized */ = {
 			isa = PBXGroup;
 			children = (
+				D1D7644E1B2C753A0060D5A6 /* cellSimpsons.h */,
+				D1D7644F1B2C753A0060D5A6 /* cellSimpsons.m */,
+				D1D764501B2C753A0060D5A6 /* cellSimpsons.xib */,
 			);
 			name = Customized;
 			sourceTree = "<group>";
@@ -227,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D764311B2C71380060D5A6 /* Main.storyboard in Resources */,
+				D1D764521B2C753A0060D5A6 /* cellSimpsons.xib in Resources */,
 				D1D764361B2C71380060D5A6 /* LaunchScreen.xib in Resources */,
 				D1D764331B2C71380060D5A6 /* Images.xcassets in Resources */,
 			);
@@ -247,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D764281B2C71380060D5A6 /* AppDelegate.m in Sources */,
+				D1D764511B2C753A0060D5A6 /* cellSimpsons.m in Sources */,
 				D1D7642B1B2C71380060D5A6 /* CM_Table.xcdatamodeld in Sources */,
 				D1D7642E1B2C71380060D5A6 /* Start.m in Sources */,
 				D1D764251B2C71380060D5A6 /* main.m in Sources */,
